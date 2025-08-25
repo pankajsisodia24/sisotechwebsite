@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
+import sisotech from '../ui/sisotech.png';
 
 
-
-const Header = ({ logoUrl, onGetQuote }) => {
+const Header = ({ logo, onGetQuote }) => {
   return (
     <motion.header 
       initial={{ y: -100, opacity: 0 }}
@@ -15,14 +15,14 @@ const Header = ({ logoUrl, onGetQuote }) => {
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <img 
-            src={logoUrl} 
-            alt="components/Images/sisotech.png" 
+            src={ sisotech } 
+            alt="Logo" 
             className="h-12 w-auto"
           />
-          <div>
+          {/* <div>
             <span className="text-xl font-bold text-gradient">SISOTECH</span>
             <p className="text-xs text-gray-400">IT Solutions</p>
-          </div>
+          </div> */}
         </div>
         
         <div className="hidden md:flex items-center space-x-8">

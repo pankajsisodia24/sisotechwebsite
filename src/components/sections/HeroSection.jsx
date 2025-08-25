@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import sisotech from '../ui/sisotech.png';
 
 const HeroSection = ({ logoUrl, onServiceInquiry }) => {
   return (
@@ -14,11 +15,11 @@ const HeroSection = ({ logoUrl, onServiceInquiry }) => {
           transition={{ duration: 1, delay: 0.2 }}
           className="mb-8"
         >
-          <img 
-            src={logoUrl} 
+          {/* <img 
+            src={sisotech} 
             alt="SISOTECH IT SOLUTIONS - Complete Technology Solutions Provider" 
             className="h-24 w-auto mx-auto mb-6 float-animation"
-          />
+          /> */}
         </motion.div>
         
         <motion.h1 

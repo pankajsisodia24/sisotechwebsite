@@ -1,4 +1,5 @@
 import React from 'react';
+import sisotech from '../ui/sisotech.png';
 
 const Footer = ({ logoUrl }) => {
   return (
@@ -8,14 +9,14 @@ const Footer = ({ logoUrl }) => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src={logoUrl} 
+                src={sisotech} 
                 alt="SISOTECH IT SOLUTIONS" 
                 className="h-10 w-auto"
               />
-              <div>
+              {/* <div>
                 <span className="text-lg font-bold text-gradient">SISOTECH</span>
                 <p className="text-xs text-gray-400">IT Solutions</p>
-              </div>
+              </div> */}
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Your trusted technology partner providing comprehensive IT solutions for businesses of all sizes. Innovation, reliability, and excellence in every project.
