@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
+
+
 const Header = ({ logoUrl, onGetQuote }) => {
   return (
     <motion.header 
@@ -14,7 +16,7 @@ const Header = ({ logoUrl, onGetQuote }) => {
         <div className="flex items-center space-x-3">
           <img 
             src={logoUrl} 
-            alt="SISOTECH IT SOLUTIONS logo" 
+            alt="components/Images/sisotech.png" 
             className="h-12 w-auto"
           />
           <div>

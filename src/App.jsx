@@ -28,29 +28,29 @@ const servicesData = [
     icon: Monitor,
     title: "Hardware Solutions",
     description: "Complete hardware setup, maintenance, and optimization for your business infrastructure.",
-    features: ["Server Installation", "Workstation Setup", "Hardware Maintenance", "Performance Optimization"]
+    features: ["Server Installation", "Workstation Setup", "Hardware Maintenance", "System Maintenance"]
   },
   {
     icon: Network,
     title: "Network Solutions",
     description: "Robust networking infrastructure design, implementation, and management services.",
-    features: ["Network Design", "WiFi Setup", "Security Configuration", "Performance Monitoring"]
+    features: ["Network Design", "WiFi Setup", "Security Configuration", "Firewall Setups"]
   },
   {
     icon: Code,
     title: "Software Solutions",
     description: "Custom software development and enterprise application solutions tailored to your needs.",
-    features: ["Custom Development", "System Integration", "Software Maintenance", "Technical Support"]
+    features: ["Website Development", "System Securities", "Software Maintenance", "Technical Support"]
   },
   {
     icon: Cloud,
     title: "Cloud Services",
     description: "Comprehensive cloud migration, management, and optimization services for modern businesses.",
-    features: ["Cloud Migration", "Data Backup", "Scalability Solutions", "Cost Optimization"]
+    features: ["Server", "Data Backup", "Cloud Space", "Virtual Machines", "Microsoft 365"]
   },
   {
     icon: Camera,
-    title: "CCTV Projects",
+    title: "Commercial CCTV Projects",
     description: "Advanced surveillance systems installation and monitoring for enhanced security.",
     features: ["System Design", "Installation", "Remote Monitoring", "Maintenance Support"]
   },
@@ -63,7 +63,7 @@ const servicesData = [
 ];
 
 const statsData = [
-  { icon: Users, value: "500+", label: "Happy Clients" },
+  { icon: Users, value: "200+", label: "Happy Clients" },
   { icon: Award, value: "50+", label: "Projects Completed" },
   { icon: Star, value: "5.0", label: "Client Rating" },
   { icon: Zap, value: "24/7", label: "Support Available" }
@@ -72,11 +72,11 @@ const statsData = [
 const contactInfo = {
   phone: "+91 7733929102",
   email: "info@sisotechit.com",
-  address: "K-12, Acrops Arched, Phoebusin, Malviya Marg, C-Scheme, Jaipur, 302001",
+  address: "K-12, Acrops Arched, 206, Phoebusin, Malviya Marg, C-Scheme, Jaipur, 302001",
   logoUrl: "https://storage.googleapis.com/hostinger-horizons-assets-prod/2a5e8755-c13d-4a14-8c87-10532497aeec/94ff86264005f7463c3b15db863f4f83.png"
 };
 
-const salesEmail = "sales@sisotechit.com";
+const salesEmail = "info@sisotechit.com";
 
 function App() {
   const { toast } = useToast();

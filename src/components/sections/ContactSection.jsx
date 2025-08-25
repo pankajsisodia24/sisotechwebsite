@@ -115,6 +115,17 @@ const ContactSection = ({ contactInfo, onSubmit, services }) => {
                     placeholder="john@example.com"
                   />
                 </div>
+                <div>
+                   <label htmlFor="Phone" className="block text-white font-semibold mb-2">Phone</label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="number" 
+                    required
+                    className="w-full px-4 py-3 bg-black/30 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-red-400 focus:outline-none transition-colors"
+                    placeholder="+911234567890"
+                    />
+                </div>
                 
                 <div>
                   <label htmlFor="serviceInterest" className="block text-white font-semibold mb-2">Service Interest</label>
