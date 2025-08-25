@@ -50,7 +50,7 @@ const Footer = ({ logoUrl }) => {
         
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} SISOTECH IT SOLUTIONS. All rights reserved. | Designed with ❤️ for technology excellence.
+            © {new Date().getFullYear()} SISOTECH IT SOLUTIONS. All rights reserved.
           </p>
         </div>
       </div>
